@@ -89,7 +89,7 @@
   </issueManagement>
   <ciManagement>
     <system>Trevis CI</system>
-    <url>https://trudeau.ci.cloudbees.com/</url>
+    <url>https://travis-ci.org/trudeau/parent/</url>
   </ciManagement>
   <distributionManagement>
     <snapshotRepository>
