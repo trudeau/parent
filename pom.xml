@@ -120,7 +120,7 @@
      | OSGi configuration properties
     -->
     <osgi.symbolicName>${project.artifactId}</osgi.symbolicName>
-    <osgi.export>${project.groupId}*;version=${project.version};-noimport:=true</osgi.export>
+    <osgi.export>${project.artifactId};version=${project.version};-noimport:=true</osgi.export>
     <osgi.import>*</osgi.import>
     <osgi.dynamicImport />
     <osgi.private />
