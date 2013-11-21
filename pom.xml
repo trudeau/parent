@@ -19,7 +19,7 @@
 
   <groupId>org.99soft.trudeau</groupId>
   <artifactId>trudeau-parent</artifactId>
-  <version>2-SNAPSHOT</version>
+  <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Trudeau parent POM</name>
