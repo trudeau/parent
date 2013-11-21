@@ -38,6 +38,47 @@
     </license>
   </licenses>
 
+  <developers>
+    <developer>
+      <id>hyperboreans</id>
+      <name>Claudio Squarcella aka Orbio</name>
+      <email>claudio.squarcella@gmail.com</email>
+      <url>http://davidepalmisano.com/</url>
+      <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <id>dpalmisano</id>
+      <name>Davide Palmisano aka Deviz</name>
+      <email>dpalmisano@gmail.com</email>
+      <url>http://davidepalmisano.com/</url>
+      <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <id>marcosperanza</id>
+      <name>Marco Speranza</name>
+      <email>marco.speranza79@gmail.com</email>
+      <url>http://www.marcosperanza.org/</url>
+      <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <id>mox601</id>
+      <name>Matteo Moci aka Mox</name>
+      <email>mox601@gmail.com</email>
+      <timezone>+1</timezone>
+    </developer>
+
+    <developer>
+      <id>simonetripodi</id>
+      <name>Simone Tripodi aka 3pod</name>
+      <email>simone.tripodi@gmail.com</email>
+      <url>http://people.apache.org/~simonetripodi</url>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+
   <mailingLists>
     <mailingList>
       <name>trudeau-user</name>
