@@ -111,7 +111,6 @@
     <javac.src.version>1.6</javac.src.version>
     <javac.target.version>1.6</javac.target.version>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
-    <implementation.build>${buildNumber}; ${maven.build.timestamp}</implementation.build>
     <!--
      | plugins configuration
     -->
@@ -216,27 +215,6 @@
       </plugin>
 
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>buildnumber-maven-plugin</artifactId>
-        <version>1.2</version>
-        <executions>
-          <execution>
-            <phase>validate</phase>
-            <goals>
-              <goal>create</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <doCheck>false</doCheck>
-          <doUpdate>false</doUpdate>
-          <revisionOnScmFailure>local-dev</revisionOnScmFailure>
-          <!-- Use committed revision so it does not change every time svn update is run -->
-          <useLastCommittedRevision>true</useLastCommittedRevision>
-        </configuration>
-      </plugin>
-
-      <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
         <version>2.4.0</version>
@@ -283,7 +261,6 @@
               <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
             </manifest>
             <manifestEntries>
-              <Implementation-Build>${buildNumber}</Implementation-Build>
               <Implementation-Build-Date>${maven.build.timestamp}</Implementation-Build-Date>
               <X-Compile-Source-JDK>${javac.src.version}</X-Compile-Source-JDK>
               <X-Compile-Target-JDK>${javac.target.version}</X-Compile-Target-JDK>
@@ -439,7 +416,6 @@
                       <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                     </manifest>
                     <manifestEntries>
-                      <Implementation-Build>${buildNumber}</Implementation-Build>
                       <Implementation-Build-Date>${maven.build.timestamp}</Implementation-Build-Date>
                       <X-Compile-Source-JDK>${javac.src.version}</X-Compile-Source-JDK>
                       <X-Compile-Target-JDK>${javac.target.version}</X-Compile-Target-JDK>
@@ -467,7 +443,6 @@
                       <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
                     </manifest>
                     <manifestEntries>
-                      <Implementation-Build>${buildNumber}</Implementation-Build>
                       <Implementation-Build-Date>${maven.build.timestamp}</Implementation-Build-Date>
                       <X-Compile-Source-JDK>${javac.src.version}</X-Compile-Source-JDK>
                       <X-Compile-Target-JDK>${javac.target.version}</X-Compile-Target-JDK>
