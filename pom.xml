@@ -22,7 +22,7 @@
   <version>2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Trudeau parent POM</name>
+  <name>Trudeau - Parent POM</name>
   <description>The Trudeau Project parent POM.</description>
   <url>https://github.com/trudeau/</url>
   <inceptionYear>2013</inceptionYear>
