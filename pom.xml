@@ -71,6 +71,13 @@
     </developer>
 
     <developer>
+      <id>coderodde</id>
+      <name>Rodion Efremov aka coderodde</name>
+      <email>coderodd3@yandex.com</email>
+      <timezone>+2</timezone>
+    </developer>
+
+    <developer>
       <id>simonetripodi</id>
       <name>Simone Tripodi aka 3pod</name>
       <email>simone.tripodi@gmail.com</email>
